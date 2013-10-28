@@ -1,6 +1,6 @@
 javascript: var Title = "[ลบเพื่อนออโต้]</A>";
 var Descriptions = "",
-    _text = 'Powered By: <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank">Error404-Pro.Tk</A> & <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank"> Error404-Pro Cyber Force</A>.</br>Script Made By: </A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank"> SlowHacker Edit</A></A>,</A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank">Test3/A></A>.</br>Test4<A style="color:#3B5998;" href="http://error404-pro.tk" target="_blank">[ลบเพื่อนออนโต้]</A>.</A>';
+    _text = 'Powered By: <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank">Error404-Pro.Tk</A> & <A style="color:#3B5998;" href="https://www.facebook.com/pages/Error404-Pro/167113693488785" target="_blank"> Adminitrator Error404-Pro</A>.</br>Script Made By: </A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank"> SlowHacker Edit</A></A>,</A><A style="color:#3B5998;" href="http://www.facebook.com/100001263373142" target="_blank">Test3/A></A>.</br>Test4<A style="color:#3B5998;" href="http://error404-pro.tk" target="_blank">[ลบเพื่อนออนโต้]</A>.</A>';
 
 function InviteFriends(opo) {
     jx.load(window.location.protocol + "//www.facebook.com/ajax/profile/removefriendconfirm.php?uid=" + opo + "&unref=bd_friends_tab&nctr[_mod]=pagelet_timeline_app_collection_" + user_id + "%3A2356318349%3A2&__user=" + user_id + "&__a=1&__dyn=7n8ahyj2qmp5zpQ9UmWWaUGyxi9Ay8&__req=i&fb_dtsg=" + fb_dtsg + "&ttstamp=265816884971127865", function (a) {
@@ -37,7 +37,7 @@ function InviteFriends(opo) {
         } else {
             Title = "ระบบสคิปจะลบเพื่อนออกทั้งหมดแล้ว</A>";
             display += arr.length + " เพื่อนที่ถูกลบ ";
-            display += "<b>" + suc + " ลบเพื่อนออนหมดแล้วจ้าา</b></br>";
+            display += "<b>" + suc + " ลบเพื่อนออกหมดแล้วจ้าา</b></br>";
             display += "<div><span class='FriendRequestAdd addButton selected uiButton uiButtonSpecial uiButtonLarge' onClick='ChangeLocation()' style='color:white'>Go to Homepage</span><span class='layerConfirm uiOverlayButton uiButton uiButtonConfirm uiButtonLarge' onClick='window.location.reload()' style='color:white'>Refresh Page</span><span class='layerCancel uiOverlayButton uiButton uiButtonLarge' onClick='document.getElementById(\"pagelet_sidebar\").style.display=\"none\"' style='color:gray'>Cancel</span><br/>";
             display += "<div style='text-align:center;font-size:10px;white-space:pre-wrap;color:gray'><br/>";
             display += _text;
