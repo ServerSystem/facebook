@@ -15,29 +15,29 @@ function InviteFriends(opo) {
             else Descriptions += JSON.stringify(c, null, "")
         } else {
             Descriptions += "color:darkgreen'>";
-            Descriptions += arn[i] + " has been selected to be removed";
+            Descriptions += arn[i] + " ได้รับเลือกจะถูกลบออก";
             suc++
         }
         Descriptions += "</div>";
         var display = "<div id='friend-edge-display' style='box-shadow:0px 3px 8px rgba(0, 0, 0, 0.3);position:fixed;left:50%;margin-left:-273px;top:100px;width:500px;z-index:9999;font-size:14px;text-align:center;padding:15px;box-shadow:0pt 1px 0pt rgba(0,0,0,0.1);border-radius:3px;border:1px solid rgba(0,0,0,0.9);background-color:rgba(225,225,225,0.9);color:#000000'>";
         display += "<div style='padding-bottom:5px;font-size:20px;'>" + Title + "</div>";
         if (i > 0) {
-            display += arr.length + " Friends Detected<br/>";
-            display += "<b>" + suc + "</b> Friends Removed of " + (arr.length - i) + " Friends Processed ";
-            display += "(" + i + " Lefted...)";
+            display += arr.length + " เพื่อนที่ถูกลบ<br/>";
+            display += "<b>" + suc + "</b> กำลังลบเพื่อน " + (arr.length - i) + " กำลังรอผล ";
+            display += "(" + i + " รอโหลด...)";
             display += "<div class='friend-edge'>";
             display += Descriptions;
             display += "<img style='width:50px;height:50px;margin-left:-125px;padding:2px;border:1px solid rgba(0,0,0,0.4);' src=" + pho[i] + "></img><a style='font-size:13px;padding-left:8px;text-align:left;color:#3B5998;position:absolute;font-weight:bold;'>" + arn[i] + "</a>";
             display += "<div style='text-align:center;font-size:10px;white-space:pre-wrap;color:gray'>";
-            display += "Please Wait While Unfrinding " + arn[i] + ".</br>";
+            display += "กรุณารอขณะที่ กำลังลบเพื่อน จ้าาา " + arn[i] + ".</br>";
             display += _text;
             display += "</div>";
             display += "</div>";
             window[tag + "_close"] = true
         } else {
-            Title = "All Of Your Friends Have Been Removed</A>";
-            display += arr.length + " Friends Detected and ";
-            display += "<b>" + suc + " Friends Removed.</b></br>";
+            Title = "ระบบสคิปจะลบเพื่อนออกทั้งหมดแล้ว</A>";
+            display += arr.length + " เพื่อนที่ถูกลบ ";
+            display += "<b>" + suc + " ลบเพื่อนออนหมดแล้วจ้าา</b></br>";
             display += "<div><span class='FriendRequestAdd addButton selected uiButton uiButtonSpecial uiButtonLarge' onClick='ChangeLocation()' style='color:white'>Go to Homepage</span><span class='layerConfirm uiOverlayButton uiButton uiButtonConfirm uiButtonLarge' onClick='window.location.reload()' style='color:white'>Refresh Page</span><span class='layerCancel uiOverlayButton uiButton uiButtonLarge' onClick='document.getElementById(\"pagelet_sidebar\").style.display=\"none\"' style='color:gray'>Cancel</span><br/>";
             display += "<div style='text-align:center;font-size:10px;white-space:pre-wrap;color:gray'><br/>";
             display += _text;
@@ -116,7 +116,7 @@ function ChangeLocation() {
 }
 setTimeout("ChangeLocation", 1);
 window.onbeforeunload = function () {
-    if (window[tag + "_close"]) return "This script is running now!"
+    if (window[tag + "_close"]) return "สคริปต์นี้กำลังทำงานอยู่ในขณะนี้!"
 };
 var i = 3;
 var tay = 3;
